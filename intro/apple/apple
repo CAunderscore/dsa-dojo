@@ -1,5 +1,0 @@
-#!/opt/pwn.college/python
-
-with open("/flag") as f:
-    print("Hello!")
-    print(f.read())
