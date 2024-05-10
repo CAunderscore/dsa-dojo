@@ -1,10 +1,20 @@
-id: data_structs_and_algos
+id: dsa
 name: Data Structures and Algorithms
 type: hidden
 award:
   emoji: 🧮
 modules:
-  - id: The Basics
-  - id: Advanced Trees
-  - id: Graphs
-  - id: Dynamic Programming
+  - id: intro
+    - name: Intro
+    - description: |
+    The basics: 
+    - **Array Searching**: Linear Search, Binary Search
+    - **Array Sorting**: Slower sorting algorithms (Selection Sort, Bubble Sort, Insertion Sort),
+                         Faster sorting algorithms (Quicksort, Merge Sort)
+    - **Linked Lists**: Traversal, Insertion, Deletion
+    - **Binary Search Trees**: Creating a BST; Pre-order, In-order and Post-order Traversal
+    - **Heaps**: Miminum and Maximum Heaps
+
+  - id: advanced_trees
+  - id: graphs
+  - id: dynamic_prog
