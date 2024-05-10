@@ -34,9 +34,9 @@ while True:
 # end of code for "run"
 
 """
-You can write your own code for testing here,
+You can write your own code below this comment for testing,
 just remember to comment it out (like this block comment and the one below) 
-before you send it to "run"!
+before you send it to "/challenge/run"!
 """
 
 """
