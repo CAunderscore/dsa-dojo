@@ -1,0 +1,25 @@
+#!/opt/pwn.college/python
+
+import sys
+import string
+import random
+import pathlib
+import textwrap
+
+flag = open("/flag", "rb").read()
+config = (pathlib.Path(__file__).parent / ".config").read_text()
+level = int(config)
+
+def challenge():
+    challenge_level = globals()[f"level{level}"]
+    description = textwrap.dedent(challenge_level.__doc__)
+
+    print("===== Welcome to Cryptography! =====")
+    print("In this series of challenges, you will be working with various cryptographic mechanisms.")
+    print(description)
+    print()
+
+    challenge_level()
+
+
+challenge()
