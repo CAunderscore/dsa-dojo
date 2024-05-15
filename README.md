@@ -1,5 +1,7 @@
 # Example Dojo
 
+TEST TEST TEST 
+
 This repositories features an example dojo.
 
 The dojo is defined by [dojo.yml](./dojo.yml).
